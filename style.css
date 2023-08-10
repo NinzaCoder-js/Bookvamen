@@ -1,0 +1,573 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  all: unset;
+}
+
+header {
+  background: #F9F9F9;
+}
+header .container {
+  max-width: 1440px;
+  display: flex;
+  margin: 0 auto;
+}
+header .container .div1 {
+  width: 212px;
+  flex-shrink: 0;
+  border-radius: 40px 0px 0px 40px;
+  background: #FFF;
+  box-shadow: 1px 0px 2px 0px rgba(128, 128, 128, 0.1);
+  padding: 40px 20px 35px;
+  display: flex;
+  gap: 110px;
+  flex-direction: column;
+  align-items: center;
+}
+header .container .div1 .btns-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 100px;
+}
+header .container .div1 .btns-box .btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 7px;
+  width: 172px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+header .container .div1 .btns-box .btn p {
+  color: var(--white, #ABB5BA);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header .container .div1 .btns-box .btn div {
+  padding: 6.5px;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+header .container .div1 .btns-box .btn div i {
+  color: #ABB5BA;
+  font-size: 21px;
+}
+header .container .div1 .btns-box .btn:hover {
+  background: var(--red-orange, #EB763C);
+}
+header .container .div1 .btns-box .btn:hover p {
+  color: var(--white, #FFF);
+}
+header .container .div1 .btns-box .btn:hover div {
+  background: var(--white, #FFF);
+}
+header .container .div1 .btns-box .btn:hover div i {
+  color: #EB763C;
+}
+header .container .div1 .btns-box .btn:nth-child(1) div {
+  padding: 4.5px 6.5px;
+}
+header .container .div1 .btns-box .btn:nth-child(2) div {
+  padding: 4.5px 6.5px;
+}
+header .container .div1 .btns-box .btn:nth-child(3) div {
+  padding: 7.5px 6.5px;
+}
+header .container .div1 .btns-box .btn:nth-child(4) div {
+  padding: 4.5px 6.5px;
+}
+header .container .div1 .btns-box .btn:nth-child(5) div {
+  padding: 4.8px 6.5px;
+}
+header .container .div1 .btns-box .btn:nth-child(6) div {
+  padding: 4.5px 6.5px;
+}
+header .container .center {
+  width: 850px;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 40px;
+  gap: 30px;
+  background: #F9F9F9;
+}
+header .container .center .orta {
+  display: flex;
+  gap: 195px;
+}
+header .container .center .orta .inpt {
+  display: flex;
+  align-items: center;
+  gap: 195px;
+  width: 492px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #ECF0F3;
+}
+header .container .center .orta .inpt input {
+  width: 250px;
+  padding: 15px;
+  background: none;
+  outline: none;
+  border: none;
+}
+header .container .center .orta .inpt input::-moz-placeholder {
+  color: #B2BAC8;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 30px;
+}
+header .container .center .orta .inpt input::placeholder {
+  color: #B2BAC8;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 30px;
+}
+header .container .center .orta .inpt .searc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background-color: white;
+  border-radius: 50%;
+}
+header .container .center .orta .language {
+  display: flex;
+  gap: 15px;
+}
+header .container .center .orta .language .ang {
+  width: 49px;
+  height: 49px;
+  flex-shrink: 0;
+  background: #D3F8D8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container .center .hero {
+  display: flex;
+  width: 775px;
+  height: 280px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #1AA928;
+  position: relative;
+}
+header .container .center .hero > img {
+  position: absolute;
+  top: 35px;
+  opacity: 0.115;
+}
+header .container .center .hero > img:nth-child(1) {
+  top: 42.81px;
+  opacity: 0.05;
+}
+header .container .center .hero .tex {
+  max-width: 365px;
+  padding: 35px 0 31px 51px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header .container .center .hero .tex h3 {
+  color: var(--white, #FFF);
+  font-family: LeMonde Livre;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 1.5px;
+  text-align: start;
+}
+header .container .center .hero .tex > p {
+  color: #DCE0E5;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 14px;
+}
+header .container .center .hero .tex .btnn {
+  width: 139px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--red-orange, #EB763C);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container .center .hero .tex .btnn p {
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+header .container .center .hero .imgbox {
+  position: relative;
+}
+header .container .center .hero .imgbox img {
+  position: absolute;
+}
+header .container .center .hero .imgbox img:nth-child(1) {
+  top: 24px;
+  left: 62px;
+}
+header .container .center .hero .imgbox img:nth-child(2) {
+  top: 56px;
+  left: 182px;
+}
+header .container .center .hero .imgbox img:nth-child(3) {
+  top: 75px;
+  left: 171px;
+}
+header .container .center .sec1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+header .container .center .sec1 h2 {
+  color: var(--black-font, #303030);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+header .container .center .sec1 h2 b {
+  color: #1AA928;
+  padding-left: 30px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header .container .center .sec1 .popular {
+  display: flex;
+  justify-content: space-between;
+}
+header .container .center .sec1 .popular .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+header .container .center .sec1 .popular .card #user {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #27A857;
+  padding: 3.65px;
+}
+header .container .center .sec1 .popular .card #user > img {
+  border-radius: 50%;
+}
+header .container .center .sec1 .popular .card h1 {
+  color: #434C56;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header .container .center .sec1 .popular .card p {
+  color: #8D96A8;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .container .center .line {
+  width: 775px;
+  height: 1px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #E0E7EB;
+}
+header .container .center .foot {
+  display: flex;
+  gap: 28px;
+}
+header .container .center .rood {
+  display: flex;
+  padding: 10px;
+  width: 240px;
+  height: 87px;
+  gap: 25px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: var(--white, #FFF);
+  box-shadow: 0px 20px 60px 0px rgba(128, 144, 155, 0.2);
+}
+header .container .center .rood .room {
+  padding: 13px;
+  width: 67px;
+  height: 67px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: #E4FBE7;
+}
+header .container .center .rood .tex {
+  align-items: center;
+}
+header .container .center .rood .tex h1 {
+  color: var(--black-font, #303030);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header .container .center .rood .tex p {
+  color: #8A97A4;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .container .oxiri {
+  width: 378px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  background: #E4FBE7;
+  padding: 35px 33px;
+  gap: 30px;
+}
+header .container .oxiri .div2 {
+  gap: 20px;
+  display: flex;
+}
+header .container .oxiri .div2 .poisk {
+  display: flex;
+  width: 243px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--white, #FFF);
+  padding: 6px;
+  align-items: center;
+  gap: 15px;
+}
+header .container .oxiri .div2 .poisk h1 {
+  color: #212121;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-right: 36px;
+}
+header .container .oxiri .div2 .bel {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 11.5px;
+}
+header .container .oxiri .wonder {
+  display: flex;
+  flex-direction: column;
+  width: 313px;
+  height: 331px;
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 40px 60px 0px rgba(128, 144, 155, 0.25);
+  background-image: url(./images/Wing.png), url(./images/Group\ 2.png);
+  background-repeat: no-repeat;
+  background-position: 0 58px, 28px 179px;
+  gap: 20px;
+}
+header .container .oxiri .wonder .card {
+  display: flex;
+  align-items: center;
+  padding: 26px 20px 0;
+  gap: 21px;
+}
+header .container .oxiri .wonder .card img:nth-child(2) {
+  border-radius: 14px;
+  border: 2px solid var(--green-1, #27A857);
+  padding: 3px;
+}
+header .container .oxiri .wonder .text h1 {
+  color: var(--gray-1, #333);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header .container .oxiri .wonder .text p {
+  color: #70808F;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .container .oxiri .wonder .media {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+}
+header .container .oxiri .wonder .media .next {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: #D6F5E1;
+  border-radius: 50%;
+  padding: 12px;
+}
+header .container .oxiri .wonder .media .paus {
+  position: relative;
+}
+header .container .oxiri .wonder .media .paus img:nth-child(2) {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+header .container .oxiri .wonder .media .next {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: #D6F5E1;
+  border-radius: 50%;
+  padding: 12px;
+}
+header .container .oxiri .tex {
+  padding-top: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+header .container .oxiri .tex h1 {
+  color: var(--gray-1, #333);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.66px;
+  text-align: start;
+}
+header .container .oxiri .tex .card {
+  margin-bottom: 10px;
+  width: 313px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #FFF;
+  box-shadow: 0px 20px 60px 0px rgba(128, 144, 155, 0.2);
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  gap: 15px;
+}
+header .container .oxiri .tex .card .text {
+  padding-right: 29px;
+}
+header .container .oxiri .tex .card .text h2 {
+  color: var(--gray-1, #333);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header .container .oxiri .tex .card .text p {
+  color: #8A97A4;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: start;
+}
+header .container .oxiri .tex .card p {
+  color: #8998A9;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .container .oxiri .tugadi {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 3px;
+}
+header .container .oxiri .tugadi h3 {
+  padding-top: 2.5px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.66px;
+}
+header .container .oxiri .tugadi .fcard {
+  padding: 14px 30px;
+  width: 313px;
+  height: 118px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 20px 60px 0px rgba(128, 144, 155, 0.2);
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 24px;
+}
+header .container .oxiri .tugadi .fcard .karta h1 {
+  color: var(--green-1, #27A857);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+header .container .oxiri .tugadi .fcard .karta img {
+  text-align: start;
+}
+header .container .oxiri .tugadi .fcard .kartamas {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container .oxiri .tugadi .fcard .kartamas h1 {
+  color: var(--green-1, #27A857);
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header .container .oxiri .tugadi .fcard .kartamas .rasm {
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */

@@ -6,20 +6,18 @@
 }
 
 a {
-    all: unset;
-
+   text-decoration: none;
 }
 
 header {
     background: #F9F9F9;
-
 
     .container {
         max-width: 1440px;
         display: flex;
         margin: 0 auto;
 
-        .div1 {
+        .left {
             width: 212px;
 
             flex-shrink: 0;
@@ -51,7 +49,6 @@ header {
 
                     p {
                         color: var(--white, #ABB5BA);
-
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 600;
@@ -91,37 +88,37 @@ header {
 
                 .btn:nth-child(1) {
                     div {
-                        padding: 4.5px 6.5px;
+                        padding: 4px 7px;
                     }
                 }
 
                 .btn:nth-child(2) {
                     div {
-                        padding: 4.5px 6.5px;
+                        padding: 4px 7px;
                     }
                 }
 
                 .btn:nth-child(3) {
                     div {
-                        padding: 7.5px 6.5px;
+                        padding: 6px 7.3px;
                     }
                 }
 
                 .btn:nth-child(4) {
                     div {
-                        padding: 4.5px 6.5px;
+                        padding: 4.5px 7.3px;
                     }
                 }
 
                 .btn:nth-child(5) {
                     div {
-                        padding: 4.8px 6.5px;
+                        padding: 4.8px 7px;
                     }
                 }
 
                 .btn:nth-child(6) {
                     div {
-                        padding: 4.5px 6.5px;
+                        padding: 4px 7px;
                     }
                 }
 
@@ -137,18 +134,18 @@ header {
             gap: 30px;
             background: #F9F9F9;
 
-            .orta {
+            .center-top {
                 display: flex;
                 gap: 195px;
 
 
-                .inpt {
+                .enter-text {
                     display: flex;
                     align-items: center;
-                    gap: 195px;
+                    gap: 190px;
+                    align-items: center;
                     width: 492px;
                     height: 50px;
-                    flex-shrink: 0;
                     border-radius: 30px;
                     background: #ECF0F3;
 
@@ -163,7 +160,6 @@ header {
 
                     input::placeholder {
                         color: #B2BAC8;
-                        font-family: Nunito;
                         font-size: 18px;
                         font-style: normal;
                         font-weight: 600;
@@ -171,7 +167,7 @@ header {
                         padding-left: 30px;
                     }
 
-                    .searc {
+                    .search {
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -188,7 +184,7 @@ header {
                     display: flex;
                     gap: 15px;
 
-                    .ang {
+                    .flag {
                         width: 49px;
                         height: 49px;
                         flex-shrink: 0;
@@ -426,7 +422,7 @@ header {
             }
         }
 
-        .oxiri {
+        .finish {
             width: 378px;
             border-radius: 40px;
             display: flex;
@@ -627,7 +623,7 @@ header {
 
             }
 
-            .tugadi {
+            .allfinish {
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
@@ -642,7 +638,7 @@ header {
                     letter-spacing: 0.66px;
                 }
 
-                .fcard {
+                .fastcard {
                     padding: 14px 30px;
                     width: 313px;
                     height: 118px;
@@ -655,7 +651,7 @@ header {
                     position: relative;
                     gap: 24px;
 
-                    .karta {
+                    .so-card {
                         h1 {
                             color: var(--green-1, #27A857);
                             font-size: 20px;
@@ -670,7 +666,7 @@ header {
                         }
                     }
 
-                    .kartamas {
+                    .no-card {
                         width: 70px;
                         height: 70px;
                         display: flex;
@@ -688,7 +684,7 @@ header {
 
                         }
 
-                        .rasm {
+                        .pic {
                             position: absolute;
 
                         }

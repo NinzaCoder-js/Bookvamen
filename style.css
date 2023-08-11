@@ -6,7 +6,7 @@
 }
 
 a {
-  all: unset;
+  text-decoration: none;
 }
 
 header {
@@ -17,7 +17,7 @@ header .container {
   display: flex;
   margin: 0 auto;
 }
-header .container .div1 {
+header .container .left {
   width: 212px;
   flex-shrink: 0;
   border-radius: 40px 0px 0px 40px;
@@ -29,13 +29,13 @@ header .container .div1 {
   flex-direction: column;
   align-items: center;
 }
-header .container .div1 .btns-box {
+header .container .left .btns-box {
   display: flex;
   flex-direction: column;
   gap: 16px;
   padding-bottom: 100px;
 }
-header .container .div1 .btns-box .btn {
+header .container .left .btns-box .btn {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -45,53 +45,53 @@ header .container .div1 .btns-box .btn {
   flex-shrink: 0;
   border-radius: 30px;
 }
-header .container .div1 .btns-box .btn p {
+header .container .left .btns-box .btn p {
   color: var(--white, #ABB5BA);
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
-header .container .div1 .btns-box .btn div {
+header .container .left .btns-box .btn div {
   padding: 6.5px;
   width: 36px;
   height: 36px;
   flex-shrink: 0;
   border-radius: 50%;
 }
-header .container .div1 .btns-box .btn div i {
+header .container .left .btns-box .btn div i {
   color: #ABB5BA;
   font-size: 21px;
 }
-header .container .div1 .btns-box .btn:hover {
+header .container .left .btns-box .btn:hover {
   background: var(--red-orange, #EB763C);
 }
-header .container .div1 .btns-box .btn:hover p {
+header .container .left .btns-box .btn:hover p {
   color: var(--white, #FFF);
 }
-header .container .div1 .btns-box .btn:hover div {
+header .container .left .btns-box .btn:hover div {
   background: var(--white, #FFF);
 }
-header .container .div1 .btns-box .btn:hover div i {
+header .container .left .btns-box .btn:hover div i {
   color: #EB763C;
 }
-header .container .div1 .btns-box .btn:nth-child(1) div {
-  padding: 4.5px 6.5px;
+header .container .left .btns-box .btn:nth-child(1) div {
+  padding: 4px 7px;
 }
-header .container .div1 .btns-box .btn:nth-child(2) div {
-  padding: 4.5px 6.5px;
+header .container .left .btns-box .btn:nth-child(2) div {
+  padding: 4px 7px;
 }
-header .container .div1 .btns-box .btn:nth-child(3) div {
-  padding: 7.5px 6.5px;
+header .container .left .btns-box .btn:nth-child(3) div {
+  padding: 6px 7.3px;
 }
-header .container .div1 .btns-box .btn:nth-child(4) div {
-  padding: 4.5px 6.5px;
+header .container .left .btns-box .btn:nth-child(4) div {
+  padding: 4.5px 7.3px;
 }
-header .container .div1 .btns-box .btn:nth-child(5) div {
-  padding: 4.8px 6.5px;
+header .container .left .btns-box .btn:nth-child(5) div {
+  padding: 4.8px 7px;
 }
-header .container .div1 .btns-box .btn:nth-child(6) div {
-  padding: 4.5px 6.5px;
+header .container .left .btns-box .btn:nth-child(6) div {
+  padding: 4px 7px;
 }
 header .container .center {
   width: 850px;
@@ -101,46 +101,44 @@ header .container .center {
   gap: 30px;
   background: #F9F9F9;
 }
-header .container .center .orta {
+header .container .center .center-top {
   display: flex;
   gap: 195px;
 }
-header .container .center .orta .inpt {
+header .container .center .center-top .enter-text {
   display: flex;
   align-items: center;
-  gap: 195px;
+  gap: 190px;
+  align-items: center;
   width: 492px;
   height: 50px;
-  flex-shrink: 0;
   border-radius: 30px;
   background: #ECF0F3;
 }
-header .container .center .orta .inpt input {
+header .container .center .center-top .enter-text input {
   width: 250px;
   padding: 15px;
   background: none;
   outline: none;
   border: none;
 }
-header .container .center .orta .inpt input::-moz-placeholder {
+header .container .center .center-top .enter-text input::-moz-placeholder {
   color: #B2BAC8;
-  font-family: Nunito;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   padding-left: 30px;
 }
-header .container .center .orta .inpt input::placeholder {
+header .container .center .center-top .enter-text input::placeholder {
   color: #B2BAC8;
-  font-family: Nunito;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   padding-left: 30px;
 }
-header .container .center .orta .inpt .searc {
+header .container .center .center-top .enter-text .search {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -150,11 +148,11 @@ header .container .center .orta .inpt .searc {
   background-color: white;
   border-radius: 50%;
 }
-header .container .center .orta .language {
+header .container .center .center-top .language {
   display: flex;
   gap: 15px;
 }
-header .container .center .orta .language .ang {
+header .container .center .center-top .language .flag {
   width: 49px;
   height: 49px;
   flex-shrink: 0;
@@ -348,7 +346,7 @@ header .container .center .rood .tex p {
   font-weight: 400;
   line-height: normal;
 }
-header .container .oxiri {
+header .container .finish {
   width: 378px;
   border-radius: 40px;
   display: flex;
@@ -357,11 +355,11 @@ header .container .oxiri {
   padding: 35px 33px;
   gap: 30px;
 }
-header .container .oxiri .div2 {
+header .container .finish .div2 {
   gap: 20px;
   display: flex;
 }
-header .container .oxiri .div2 .poisk {
+header .container .finish .div2 .poisk {
   display: flex;
   width: 243px;
   height: 50px;
@@ -372,7 +370,7 @@ header .container .oxiri .div2 .poisk {
   align-items: center;
   gap: 15px;
 }
-header .container .oxiri .div2 .poisk h1 {
+header .container .finish .div2 .poisk h1 {
   color: #212121;
   font-size: 17px;
   font-style: normal;
@@ -380,7 +378,7 @@ header .container .oxiri .div2 .poisk h1 {
   line-height: normal;
   padding-right: 36px;
 }
-header .container .oxiri .div2 .bel {
+header .container .finish .div2 .bel {
   display: flex;
   width: 50px;
   height: 50px;
@@ -389,7 +387,7 @@ header .container .oxiri .div2 .bel {
   background-color: #fff;
   padding: 11.5px;
 }
-header .container .oxiri .wonder {
+header .container .finish .wonder {
   display: flex;
   flex-direction: column;
   width: 313px;
@@ -402,18 +400,18 @@ header .container .oxiri .wonder {
   background-position: 0 58px, 28px 179px;
   gap: 20px;
 }
-header .container .oxiri .wonder .card {
+header .container .finish .wonder .card {
   display: flex;
   align-items: center;
   padding: 26px 20px 0;
   gap: 21px;
 }
-header .container .oxiri .wonder .card img:nth-child(2) {
+header .container .finish .wonder .card img:nth-child(2) {
   border-radius: 14px;
   border: 2px solid var(--green-1, #27A857);
   padding: 3px;
 }
-header .container .oxiri .wonder .text h1 {
+header .container .finish .wonder .text h1 {
   color: var(--gray-1, #333);
   text-align: center;
   font-size: 20px;
@@ -421,7 +419,7 @@ header .container .oxiri .wonder .text h1 {
   font-weight: 700;
   line-height: normal;
 }
-header .container .oxiri .wonder .text p {
+header .container .finish .wonder .text p {
   color: #70808F;
   text-align: center;
   font-size: 14px;
@@ -429,14 +427,14 @@ header .container .oxiri .wonder .text p {
   font-weight: 400;
   line-height: normal;
 }
-header .container .oxiri .wonder .media {
+header .container .finish .wonder .media {
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
   gap: 30px;
 }
-header .container .oxiri .wonder .media .next {
+header .container .finish .wonder .media .next {
   width: 40px;
   height: 40px;
   flex-shrink: 0;
@@ -444,15 +442,15 @@ header .container .oxiri .wonder .media .next {
   border-radius: 50%;
   padding: 12px;
 }
-header .container .oxiri .wonder .media .paus {
+header .container .finish .wonder .media .paus {
   position: relative;
 }
-header .container .oxiri .wonder .media .paus img:nth-child(2) {
+header .container .finish .wonder .media .paus img:nth-child(2) {
   position: absolute;
   top: 10px;
   right: 10px;
 }
-header .container .oxiri .wonder .media .next {
+header .container .finish .wonder .media .next {
   width: 40px;
   height: 40px;
   flex-shrink: 0;
@@ -460,13 +458,13 @@ header .container .oxiri .wonder .media .next {
   border-radius: 50%;
   padding: 12px;
 }
-header .container .oxiri .tex {
+header .container .finish .tex {
   padding-top: 2px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-header .container .oxiri .tex h1 {
+header .container .finish .tex h1 {
   color: var(--gray-1, #333);
   font-size: 22px;
   font-style: normal;
@@ -475,7 +473,7 @@ header .container .oxiri .tex h1 {
   letter-spacing: 0.66px;
   text-align: start;
 }
-header .container .oxiri .tex .card {
+header .container .finish .tex .card {
   margin-bottom: 10px;
   width: 313px;
   height: 80px;
@@ -488,17 +486,17 @@ header .container .oxiri .tex .card {
   align-items: center;
   gap: 15px;
 }
-header .container .oxiri .tex .card .text {
+header .container .finish .tex .card .text {
   padding-right: 29px;
 }
-header .container .oxiri .tex .card .text h2 {
+header .container .finish .tex .card .text h2 {
   color: var(--gray-1, #333);
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-header .container .oxiri .tex .card .text p {
+header .container .finish .tex .card .text p {
   color: #8A97A4;
   font-size: 14px;
   font-style: normal;
@@ -506,7 +504,7 @@ header .container .oxiri .tex .card .text p {
   line-height: normal;
   text-align: start;
 }
-header .container .oxiri .tex .card p {
+header .container .finish .tex .card p {
   color: #8998A9;
   text-align: right;
   font-size: 14px;
@@ -514,13 +512,13 @@ header .container .oxiri .tex .card p {
   font-weight: 400;
   line-height: normal;
 }
-header .container .oxiri .tugadi {
+header .container .finish .allfinish {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding-top: 3px;
 }
-header .container .oxiri .tugadi h3 {
+header .container .finish .allfinish h3 {
   padding-top: 2.5px;
   font-size: 22px;
   font-style: normal;
@@ -528,7 +526,7 @@ header .container .oxiri .tugadi h3 {
   line-height: normal;
   letter-spacing: 0.66px;
 }
-header .container .oxiri .tugadi .fcard {
+header .container .finish .allfinish .fastcard {
   padding: 14px 30px;
   width: 313px;
   height: 118px;
@@ -541,7 +539,7 @@ header .container .oxiri .tugadi .fcard {
   position: relative;
   gap: 24px;
 }
-header .container .oxiri .tugadi .fcard .karta h1 {
+header .container .finish .allfinish .fastcard .so-card h1 {
   color: var(--green-1, #27A857);
   font-size: 20px;
   font-style: normal;
@@ -549,17 +547,17 @@ header .container .oxiri .tugadi .fcard .karta h1 {
   line-height: normal;
   padding-bottom: 10px;
 }
-header .container .oxiri .tugadi .fcard .karta img {
+header .container .finish .allfinish .fastcard .so-card img {
   text-align: start;
 }
-header .container .oxiri .tugadi .fcard .kartamas {
+header .container .finish .allfinish .fastcard .no-card {
   width: 70px;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-header .container .oxiri .tugadi .fcard .kartamas h1 {
+header .container .finish .allfinish .fastcard .no-card h1 {
   color: var(--green-1, #27A857);
   text-align: center;
   align-items: center;
@@ -568,6 +566,6 @@ header .container .oxiri .tugadi .fcard .kartamas h1 {
   font-weight: 700;
   line-height: normal;
 }
-header .container .oxiri .tugadi .fcard .kartamas .rasm {
+header .container .finish .allfinish .fastcard .no-card .pic {
   position: absolute;
 }/*# sourceMappingURL=style.css.map */

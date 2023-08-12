@@ -203,18 +203,20 @@ header {
 
                 width: 775px;
                 height: 280px;
-                flex-shrink: 0;
+                // flex-shrink: 0;
                 border-radius: 24px;
                 background: #1AA928;
                 position: relative;
 
-                &>img {
+                .bg-fill1 {
+                    background-image: url("./images/fill1.svg");
                     position: absolute;
                     top: 35px;
                     opacity: 0.115;
                 }
 
-                &>img:nth-child(1) {
+                .bg-fill2 {
+                    background-image: url("./images/fill2.svg");
                     top: 42.81px;
                     opacity: 0.05;
                 }
@@ -246,7 +248,7 @@ header {
                         padding-bottom: 14px;
                     }
 
-                    .btnn {
+                    .btn-view {
                         width: 139px;
                         height: 42px;
                         flex-shrink: 0;
@@ -398,7 +400,7 @@ header {
 
                 }
 
-                .tex {
+                .read-books {
 
                     align-items: center;
 
@@ -684,7 +686,9 @@ header {
 
                         }
 
-                        .pic {
+                        .pic
+
+                         {
                             position: absolute;
 
                         }

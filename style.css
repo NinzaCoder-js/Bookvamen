@@ -166,17 +166,18 @@ header .container .center .hero {
   display: flex;
   width: 775px;
   height: 280px;
-  flex-shrink: 0;
   border-radius: 24px;
   background: #1AA928;
   position: relative;
 }
-header .container .center .hero > img {
+header .container .center .hero .bg-fill1 {
+  background-image: url("./images/fill1.svg");
   position: absolute;
   top: 35px;
   opacity: 0.115;
 }
-header .container .center .hero > img:nth-child(1) {
+header .container .center .hero .bg-fill2 {
+  background-image: url("./images/fill2.svg");
   top: 42.81px;
   opacity: 0.05;
 }
@@ -205,7 +206,7 @@ header .container .center .hero .tex > p {
   line-height: normal;
   padding-bottom: 14px;
 }
-header .container .center .hero .tex .btnn {
+header .container .center .hero .tex .btn-view {
   width: 139px;
   height: 42px;
   flex-shrink: 0;
@@ -215,7 +216,7 @@ header .container .center .hero .tex .btnn {
   align-items: center;
   justify-content: center;
 }
-header .container .center .hero .tex .btnn p {
+header .container .center .hero .tex .btn-view p {
   color: white;
   font-size: 14px;
   font-style: normal;
@@ -329,17 +330,17 @@ header .container .center .rood .room {
   border-radius: 11px;
   background: #E4FBE7;
 }
-header .container .center .rood .tex {
+header .container .center .rood .read-books {
   align-items: center;
 }
-header .container .center .rood .tex h1 {
+header .container .center .rood .read-books h1 {
   color: var(--black-font, #303030);
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-header .container .center .rood .tex p {
+header .container .center .rood .read-books p {
   color: #8A97A4;
   font-size: 17px;
   font-style: normal;

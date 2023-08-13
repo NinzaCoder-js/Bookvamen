@@ -9,15 +9,16 @@ a {
   text-decoration: none;
 }
 
-header {
+body {
   background: #F9F9F9;
 }
-header .container {
+
+.container {
   max-width: 1440px;
   display: flex;
   margin: 0 auto;
 }
-header .container .left {
+.container .left {
   width: 212px;
   flex-shrink: 0;
   border-radius: 40px 0px 0px 40px;
@@ -29,13 +30,13 @@ header .container .left {
   flex-direction: column;
   align-items: center;
 }
-header .container .left .btns-box {
+.container .left .btns-box {
   display: flex;
   flex-direction: column;
   gap: 16px;
   padding-bottom: 100px;
 }
-header .container .left .btns-box .btn {
+.container .left .btns-box .btn {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -45,55 +46,55 @@ header .container .left .btns-box .btn {
   flex-shrink: 0;
   border-radius: 30px;
 }
-header .container .left .btns-box .btn p {
+.container .left .btns-box .btn p {
   color: var(--white, #ABB5BA);
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
-header .container .left .btns-box .btn div {
+.container .left .btns-box .btn div {
   padding: 6.5px;
   width: 36px;
   height: 36px;
   flex-shrink: 0;
   border-radius: 50%;
 }
-header .container .left .btns-box .btn div i {
+.container .left .btns-box .btn div i {
   color: #ABB5BA;
   font-size: 21px;
 }
-header .container .left .btns-box .btn:hover {
+.container .left .btns-box .btn:hover {
   background: var(--red-orange, #EB763C);
 }
-header .container .left .btns-box .btn:hover p {
+.container .left .btns-box .btn:hover p {
   color: var(--white, #FFF);
 }
-header .container .left .btns-box .btn:hover div {
+.container .left .btns-box .btn:hover div {
   background: var(--white, #FFF);
 }
-header .container .left .btns-box .btn:hover div i {
+.container .left .btns-box .btn:hover div i {
   color: #EB763C;
 }
-header .container .left .btns-box .btn:nth-child(1) div {
+.container .left .btns-box .btn:nth-child(1) div {
   padding: 4px 7px;
 }
-header .container .left .btns-box .btn:nth-child(2) div {
+.container .left .btns-box .btn:nth-child(2) div {
   padding: 4px 7px;
 }
-header .container .left .btns-box .btn:nth-child(3) div {
+.container .left .btns-box .btn:nth-child(3) div {
   padding: 6px 7.3px;
 }
-header .container .left .btns-box .btn:nth-child(4) div {
+.container .left .btns-box .btn:nth-child(4) div {
   padding: 4.5px 7.3px;
 }
-header .container .left .btns-box .btn:nth-child(5) div {
+.container .left .btns-box .btn:nth-child(5) div {
   padding: 4.8px 7px;
 }
-header .container .left .btns-box .btn:nth-child(6) div {
+.container .left .btns-box .btn:nth-child(6) div {
   padding: 4px 7px;
 }
-header .container .center {
+.container .center {
   width: 850px;
   display: flex;
   flex-direction: column;
@@ -101,11 +102,11 @@ header .container .center {
   gap: 30px;
   background: #F9F9F9;
 }
-header .container .center .center-top {
+.container .center .center-top {
   display: flex;
   gap: 195px;
 }
-header .container .center .center-top .enter-text {
+.container .center .center-top .enter-text {
   display: flex;
   align-items: center;
   gap: 190px;
@@ -115,14 +116,14 @@ header .container .center .center-top .enter-text {
   border-radius: 30px;
   background: #ECF0F3;
 }
-header .container .center .center-top .enter-text input {
+.container .center .center-top .enter-text input {
   width: 250px;
   padding: 15px;
   background: none;
   outline: none;
   border: none;
 }
-header .container .center .center-top .enter-text input::-moz-placeholder {
+.container .center .center-top .enter-text input::-moz-placeholder {
   color: #B2BAC8;
   font-size: 18px;
   font-style: normal;
@@ -130,7 +131,7 @@ header .container .center .center-top .enter-text input::-moz-placeholder {
   line-height: normal;
   padding-left: 30px;
 }
-header .container .center .center-top .enter-text input::placeholder {
+.container .center .center-top .enter-text input::placeholder {
   color: #B2BAC8;
   font-size: 18px;
   font-style: normal;
@@ -138,7 +139,7 @@ header .container .center .center-top .enter-text input::placeholder {
   line-height: normal;
   padding-left: 30px;
 }
-header .container .center .center-top .enter-text .search {
+.container .center .center-top .enter-text .search {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -148,11 +149,11 @@ header .container .center .center-top .enter-text .search {
   background-color: white;
   border-radius: 50%;
 }
-header .container .center .center-top .language {
+.container .center .center-top .language {
   display: flex;
   gap: 15px;
 }
-header .container .center .center-top .language .flag {
+.container .center .center-top .language .flag {
   width: 49px;
   height: 49px;
   flex-shrink: 0;
@@ -162,7 +163,7 @@ header .container .center .center-top .language .flag {
   align-items: center;
   justify-content: center;
 }
-header .container .center .hero {
+.container .center .hero {
   display: flex;
   width: 775px;
   height: 280px;
@@ -170,25 +171,25 @@ header .container .center .hero {
   background: #1AA928;
   position: relative;
 }
-header .container .center .hero .bg-fill1 {
+.container .center .hero .bg-fill1 {
   background-image: url("./images/fill1.svg");
   position: absolute;
   top: 35px;
   opacity: 0.115;
 }
-header .container .center .hero .bg-fill2 {
+.container .center .hero .bg-fill2 {
   background-image: url("./images/fill2.svg");
   top: 42.81px;
   opacity: 0.05;
 }
-header .container .center .hero .tex {
+.container .center .hero .tex {
   max-width: 365px;
   padding: 35px 0 31px 51px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-header .container .center .hero .tex h3 {
+.container .center .hero .tex h3 {
   color: var(--white, #FFF);
   font-family: LeMonde Livre;
   font-size: 30px;
@@ -198,7 +199,7 @@ header .container .center .hero .tex h3 {
   letter-spacing: 1.5px;
   text-align: start;
 }
-header .container .center .hero .tex > p {
+.container .center .hero .tex > p {
   color: #DCE0E5;
   font-size: 18px;
   font-style: normal;
@@ -206,7 +207,7 @@ header .container .center .hero .tex > p {
   line-height: normal;
   padding-bottom: 14px;
 }
-header .container .center .hero .tex .btn-view {
+.container .center .hero .tex .btn-view {
   width: 139px;
   height: 42px;
   flex-shrink: 0;
@@ -216,7 +217,7 @@ header .container .center .hero .tex .btn-view {
   align-items: center;
   justify-content: center;
 }
-header .container .center .hero .tex .btn-view p {
+.container .center .hero .tex .btn-view p {
   color: white;
   font-size: 14px;
   font-style: normal;
@@ -224,30 +225,30 @@ header .container .center .hero .tex .btn-view p {
   line-height: normal;
   letter-spacing: 0.28px;
 }
-header .container .center .hero .imgbox {
+.container .center .hero .imgbox {
   position: relative;
 }
-header .container .center .hero .imgbox img {
+.container .center .hero .imgbox img {
   position: absolute;
 }
-header .container .center .hero .imgbox img:nth-child(1) {
+.container .center .hero .imgbox img:nth-child(1) {
   top: 24px;
   left: 62px;
 }
-header .container .center .hero .imgbox img:nth-child(2) {
+.container .center .hero .imgbox img:nth-child(2) {
   top: 56px;
   left: 182px;
 }
-header .container .center .hero .imgbox img:nth-child(3) {
+.container .center .hero .imgbox img:nth-child(3) {
   top: 75px;
   left: 171px;
 }
-header .container .center .sec1 {
+.container .center .sec1 {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-header .container .center .sec1 h2 {
+.container .center .sec1 h2 {
   color: var(--black-font, #303030);
   font-size: 24px;
   font-style: normal;
@@ -255,7 +256,7 @@ header .container .center .sec1 h2 {
   line-height: normal;
   letter-spacing: 0.24px;
 }
-header .container .center .sec1 h2 b {
+.container .center .sec1 h2 b {
   color: #1AA928;
   padding-left: 30px;
   font-size: 18px;
@@ -263,27 +264,27 @@ header .container .center .sec1 h2 b {
   font-weight: 600;
   line-height: normal;
 }
-header .container .center .sec1 .popular {
+.container .center .sec1 .popular {
   display: flex;
   justify-content: space-between;
 }
-header .container .center .sec1 .popular .card {
+.container .center .sec1 .popular .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
 }
-header .container .center .sec1 .popular .card #user {
+.container .center .sec1 .popular .card #user {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   border: 2px solid #27A857;
   padding: 3.65px;
 }
-header .container .center .sec1 .popular .card #user > img {
+.container .center .sec1 .popular .card #user > img {
   border-radius: 50%;
 }
-header .container .center .sec1 .popular .card h1 {
+.container .center .sec1 .popular .card h1 {
   color: #434C56;
   text-align: center;
   padding-top: 5px;
@@ -292,7 +293,7 @@ header .container .center .sec1 .popular .card h1 {
   font-weight: 700;
   line-height: normal;
 }
-header .container .center .sec1 .popular .card p {
+.container .center .sec1 .popular .card p {
   color: #8D96A8;
   text-align: center;
   font-size: 14px;
@@ -300,18 +301,18 @@ header .container .center .sec1 .popular .card p {
   font-weight: 400;
   line-height: normal;
 }
-header .container .center .line {
+.container .center .line {
   width: 775px;
   height: 1px;
   flex-shrink: 0;
   border-radius: 20px;
   background: #E0E7EB;
 }
-header .container .center .foot {
+.container .center .foot {
   display: flex;
   gap: 28px;
 }
-header .container .center .rood {
+.container .center .rood {
   display: flex;
   padding: 10px;
   width: 240px;
@@ -322,7 +323,7 @@ header .container .center .rood {
   background: var(--white, #FFF);
   box-shadow: 0px 20px 60px 0px rgba(128, 144, 155, 0.2);
 }
-header .container .center .rood .room {
+.container .center .rood .room {
   padding: 13px;
   width: 67px;
   height: 67px;
@@ -330,24 +331,24 @@ header .container .center .rood .room {
   border-radius: 11px;
   background: #E4FBE7;
 }
-header .container .center .rood .read-books {
+.container .center .rood .read-books {
   align-items: center;
 }
-header .container .center .rood .read-books h1 {
+.container .center .rood .read-books h1 {
   color: var(--black-font, #303030);
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-header .container .center .rood .read-books p {
+.container .center .rood .read-books p {
   color: #8A97A4;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-header .container .finish {
+.container .finish {
   width: 378px;
   border-radius: 40px;
   display: flex;
@@ -356,11 +357,11 @@ header .container .finish {
   padding: 35px 33px;
   gap: 30px;
 }
-header .container .finish .div2 {
+.container .finish .div2 {
   gap: 20px;
   display: flex;
 }
-header .container .finish .div2 .poisk {
+.container .finish .div2 .poisk {
   display: flex;
   width: 243px;
   height: 50px;
@@ -371,7 +372,7 @@ header .container .finish .div2 .poisk {
   align-items: center;
   gap: 15px;
 }
-header .container .finish .div2 .poisk h1 {
+.container .finish .div2 .poisk h1 {
   color: #212121;
   font-size: 17px;
   font-style: normal;
@@ -379,7 +380,7 @@ header .container .finish .div2 .poisk h1 {
   line-height: normal;
   padding-right: 36px;
 }
-header .container .finish .div2 .bel {
+.container .finish .div2 .bel {
   display: flex;
   width: 50px;
   height: 50px;
@@ -388,7 +389,7 @@ header .container .finish .div2 .bel {
   background-color: #fff;
   padding: 11.5px;
 }
-header .container .finish .wonder {
+.container .finish .wonder {
   display: flex;
   flex-direction: column;
   width: 313px;
@@ -401,18 +402,18 @@ header .container .finish .wonder {
   background-position: 0 58px, 28px 179px;
   gap: 20px;
 }
-header .container .finish .wonder .card {
+.container .finish .wonder .card {
   display: flex;
   align-items: center;
   padding: 26px 20px 0;
   gap: 21px;
 }
-header .container .finish .wonder .card img:nth-child(2) {
+.container .finish .wonder .card img:nth-child(2) {
   border-radius: 14px;
   border: 2px solid var(--green-1, #27A857);
   padding: 3px;
 }
-header .container .finish .wonder .text h1 {
+.container .finish .wonder .text h1 {
   color: var(--gray-1, #333);
   text-align: center;
   font-size: 20px;
@@ -420,7 +421,7 @@ header .container .finish .wonder .text h1 {
   font-weight: 700;
   line-height: normal;
 }
-header .container .finish .wonder .text p {
+.container .finish .wonder .text p {
   color: #70808F;
   text-align: center;
   font-size: 14px;
@@ -428,14 +429,14 @@ header .container .finish .wonder .text p {
   font-weight: 400;
   line-height: normal;
 }
-header .container .finish .wonder .media {
+.container .finish .wonder .media {
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
   gap: 30px;
 }
-header .container .finish .wonder .media .next {
+.container .finish .wonder .media .next {
   width: 40px;
   height: 40px;
   flex-shrink: 0;
@@ -443,15 +444,15 @@ header .container .finish .wonder .media .next {
   border-radius: 50%;
   padding: 12px;
 }
-header .container .finish .wonder .media .paus {
+.container .finish .wonder .media .paus {
   position: relative;
 }
-header .container .finish .wonder .media .paus img:nth-child(2) {
+.container .finish .wonder .media .paus img:nth-child(2) {
   position: absolute;
   top: 10px;
   right: 10px;
 }
-header .container .finish .wonder .media .next {
+.container .finish .wonder .media .next {
   width: 40px;
   height: 40px;
   flex-shrink: 0;
@@ -459,13 +460,13 @@ header .container .finish .wonder .media .next {
   border-radius: 50%;
   padding: 12px;
 }
-header .container .finish .tex {
+.container .finish .tex {
   padding-top: 2px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-header .container .finish .tex h1 {
+.container .finish .tex h1 {
   color: var(--gray-1, #333);
   font-size: 22px;
   font-style: normal;
@@ -474,7 +475,7 @@ header .container .finish .tex h1 {
   letter-spacing: 0.66px;
   text-align: start;
 }
-header .container .finish .tex .card {
+.container .finish .tex .card {
   margin-bottom: 10px;
   width: 313px;
   height: 80px;
@@ -487,17 +488,17 @@ header .container .finish .tex .card {
   align-items: center;
   gap: 15px;
 }
-header .container .finish .tex .card .text {
+.container .finish .tex .card .text {
   padding-right: 29px;
 }
-header .container .finish .tex .card .text h2 {
+.container .finish .tex .card .text h2 {
   color: var(--gray-1, #333);
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-header .container .finish .tex .card .text p {
+.container .finish .tex .card .text p {
   color: #8A97A4;
   font-size: 14px;
   font-style: normal;
@@ -505,7 +506,7 @@ header .container .finish .tex .card .text p {
   line-height: normal;
   text-align: start;
 }
-header .container .finish .tex .card p {
+.container .finish .tex .card p {
   color: #8998A9;
   text-align: right;
   font-size: 14px;
@@ -513,13 +514,13 @@ header .container .finish .tex .card p {
   font-weight: 400;
   line-height: normal;
 }
-header .container .finish .allfinish {
+.container .finish .allfinish {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding-top: 3px;
 }
-header .container .finish .allfinish h3 {
+.container .finish .allfinish h3 {
   padding-top: 2.5px;
   font-size: 22px;
   font-style: normal;
@@ -527,7 +528,7 @@ header .container .finish .allfinish h3 {
   line-height: normal;
   letter-spacing: 0.66px;
 }
-header .container .finish .allfinish .fastcard {
+.container .finish .allfinish .fastcard {
   padding: 14px 30px;
   width: 313px;
   height: 118px;
@@ -540,7 +541,7 @@ header .container .finish .allfinish .fastcard {
   position: relative;
   gap: 24px;
 }
-header .container .finish .allfinish .fastcard .so-card h1 {
+.container .finish .allfinish .fastcard .so-card h1 {
   color: var(--green-1, #27A857);
   font-size: 20px;
   font-style: normal;
@@ -548,17 +549,17 @@ header .container .finish .allfinish .fastcard .so-card h1 {
   line-height: normal;
   padding-bottom: 10px;
 }
-header .container .finish .allfinish .fastcard .so-card img {
+.container .finish .allfinish .fastcard .so-card img {
   text-align: start;
 }
-header .container .finish .allfinish .fastcard .no-card {
+.container .finish .allfinish .fastcard .no-card {
   width: 70px;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-header .container .finish .allfinish .fastcard .no-card h1 {
+.container .finish .allfinish .fastcard .no-card h1 {
   color: var(--green-1, #27A857);
   text-align: center;
   align-items: center;
@@ -567,6 +568,6 @@ header .container .finish .allfinish .fastcard .no-card h1 {
   font-weight: 700;
   line-height: normal;
 }
-header .container .finish .allfinish .fastcard .no-card .pic {
+.container .finish .allfinish .fastcard .no-card .pic {
   position: absolute;
 }/*# sourceMappingURL=style.css.map */
